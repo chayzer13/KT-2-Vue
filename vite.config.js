@@ -6,7 +6,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'vue-project',
+  base: '/KT-2-Vue/',
+  plugins: [vue()],
   plugins: [
     vue(),
     vueDevTools(),
