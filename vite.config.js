@@ -4,12 +4,9 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/KT-2-Vue/',
-  plugins: [vue()],
-  plugins: [
-    vue(),
+  base: '/KT-2-Vue/', // Укажи правильное название своего репозитория!
+  plugins: [vue(),
     vueDevTools(),
   ],
   resolve: {
